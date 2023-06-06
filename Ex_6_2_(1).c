@@ -11,7 +11,7 @@ int main(){
 	printf("Resultado: %s\n\n", s);
 	
 	printf("Digite algo (scanf convencional):\n");
-	scanf("%10[^\n]s", s);
+	scanf("10[^\n]s", s);
 	fflush(stdin);
 	
 	printf("Resultado: %s\n\n", s);
